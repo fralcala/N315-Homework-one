@@ -18,3 +18,37 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+section {
+  height: 100vh;
+}
+
+.sec-one {
+  background-color: azure;
+}
+
+.sec-two {
+  background-color: burlywood;
+}
