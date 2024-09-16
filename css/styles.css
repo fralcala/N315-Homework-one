@@ -67,18 +67,30 @@ footer {
 }
 
 section {
-  height: 100vh;
   padding: 30px;
 }
 section h1 {
   font-size: 50px;
   font-family: merri-reg;
+  text-decoration: underline;
 }
 
 .sec-one {
   background-color: azure;
+  padding-top: 50px;
+  background-image: url(../images/hero.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 90vh;
+}
+.sec-one p {
+  width: 50%;
+  font-size: 15px;
+  font-family: merri-reg;
+  line-height: 25px;
 }
 
 .sec-two {
+  height: 100vh;
   background-color: burlywood;
 }
