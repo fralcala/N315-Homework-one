@@ -1,0 +1,71 @@
+.products {
+  min-height: 100vh;
+  background-color: #f1f3ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 30px;
+    font-family: merri-reg;
+  }
+
+  .new-n-trend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .box {
+      padding: 20px;
+
+      .new-container {
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .new-one {
+        background-image: url(../images/oil.jpg);
+        transform: scaleX(-1);
+        background-position: top left;
+      }
+      .new-two {
+        background-image: url(../images/three.jpg);
+      }
+      .new-three {
+        background-image: url(../images/bottle.jpg);
+      }
+
+      .new-discription {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        h3 {
+          font-size: 25px;
+          // font-family: merri-reg;
+        }
+
+        .button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 200px;
+          height: 40px;
+          border-radius: 50px;
+          border: 3px solid black;
+          background-color: white;
+          font-family: merri-bold;
+          font-size: 20px;
+        }
+
+        .button:hover {
+          background-color: rgba(0, 0, 0, 0.418);
+        }
+      }
+    }
+  }
+}
